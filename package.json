@@ -1,0 +1,25 @@
+{
+  "name": "fnd-agent",
+  "version": "1.0.0",
+  "description": "This project serves as a hands-on exercise to learn and apply system design principles in a practical setting. The goal is to simulate how scalable systems are structured in real-world environments by incorporating concepts such as modular architecture, API orchestration, caching, monitoring, and fault tolerance.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.1.0",
+    "helmet": "^8.1.0",
+    "node-fetch": "^3.3.2",
+    "pino-http": "^11.0.0",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
