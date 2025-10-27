@@ -32,9 +32,10 @@ app.get("/healthz", (_req, res) => res.json({ ok: true }));
 
 // Error handling
 app.use((err, _req, res, _next) => {
-    res.status(500).json({ error: "Internal Server Error" });
-    res.status(err.status || 500).json({ error: err.message || "Internal Server Error", code: err.code || INTERNAL_ERROR });
+  const status = Number.isInteger(err?.status) ? err.status : 500;
+  res.status(status).json({ error: err?.message || "Internal Server Error", code: err?.code || "INTERNAL_ERROR" });
 });
+
 
 // Start server
 app.listen(env.PORT, () => {
