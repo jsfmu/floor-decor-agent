@@ -5,7 +5,7 @@ Click any link below to open the diagram directly in [draw.io](https://app.diagr
 
 ---
 
-## 🧩 Components
+## Components
 
 | Component | Diagram Link | Description |
 |------------|--------------|--------------|
