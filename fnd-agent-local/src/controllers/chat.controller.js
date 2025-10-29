@@ -29,7 +29,7 @@ export async function postChat(req, res, next) {
         .send(text);
     }
 
-    // Stream (SSE) passthrough
+    // Stream SSE passthrough
     res.set({
       "Content-Type": "text/event-stream",
       "Cache-Control": "no-cache",
