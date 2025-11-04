@@ -1,0 +1,28 @@
+# Dependencies
+/node_modules
+
+# Build outputs
+
+
+# System files
+
+
+# Environment variables
+.env
+
+# Logs
+
+
+# IDE files
+
+
+# Temporary files
+
+
+# Coverage directory
+
+
+# Test output
+
+
+# Miscellaneous
