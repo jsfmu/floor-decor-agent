@@ -1,7 +1,7 @@
 # 🔧 Low-Level Design
 
 This directory contains the Low Level Design Documentation for each core component of the **Floor & Decor Agent** system.  
-Click any link below to open the diagram directly in [draw.io](https://app.diagrams.net/).
+Click any link below to open an LLD.
 
 ---
 
